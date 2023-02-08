@@ -376,6 +376,12 @@ body {
         }
       }
     }
+
+    .mailing {
+      .last-block-title {
+        @include last-block-title;
+      }
+    }
   }
 }
 
